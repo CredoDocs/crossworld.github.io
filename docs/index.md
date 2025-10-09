@@ -29,4 +29,4 @@ graph TD
 
 ## DrawIO
 
-![Isekai Master](IsekaiMaster.drawio)
+![](IsekaiMaster.drawio)

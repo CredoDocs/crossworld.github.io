@@ -1,6 +1,6 @@
 site_name: Crossworld Docs
 site_description: Игровая и техническая документация
-site_url: https://mydomain.org/mysite
+site_url: https://credodocs.github.io/crossworld.github.io/
 
 theme:
   name: material
