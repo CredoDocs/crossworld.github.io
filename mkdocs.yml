@@ -1,0 +1,47 @@
+site_name: Crossworld Docs
+site_description: Игровая и техническая документация
+site_url: https://mydomain.org/mysite
+
+theme:
+  name: material
+  font:
+    text: "Fira Code"
+  language: ru
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+
+  palette: 
+    scheme: slate
+    primary: indigo
+    accent: deep purple
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - toc.follow
+  
+
+# extra_css:
+#   - stylesheets/catppuccin.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - drawio:
+      darkmode: true
+
+extra_javascript:
+  - https://viewer.diagrams.net/js/viewer-static.min.js
+  - javascripts/drawio-reload.js
+
+nav:
+  - Главная: index.md
