@@ -16,9 +16,15 @@ theme:
     accent: deep purple
   features:
     - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.preview
+    - navigation.tabs
     - navigation.tracking
+    - navigation.path
+    - navigation.indexes
     - content.code.copy
     - toc.follow
+    - search.suggest
   
 
 # extra_css:
