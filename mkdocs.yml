@@ -46,3 +46,6 @@ extra_javascript:
 nav:
   - Главная: index.md
   - Истории: nd/
+  - ГДД: gdd/
+  - Арт: 2d/
+  - UI: ui/
