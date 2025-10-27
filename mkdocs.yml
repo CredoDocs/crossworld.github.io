@@ -44,6 +44,8 @@ plugins:
   - search
   - drawio:
       darkmode: true
+  - meta
+  - tags
 
 extra_javascript:
   - https://viewer.diagrams.net/js/viewer-static.min.js
@@ -51,7 +53,32 @@ extra_javascript:
 
 nav:
   - Главная: index.md
-  - Истории: nd/
-  - ГДД: gdd/
-  - Арт: 2d/
-  - UI: ui/
+  - Истории: 
+    - nd/index.md
+    - Проводник Смерти: 
+      - nd/dg/index.md
+      - 1 Глава: nd/dg/chapters/01.md
+      - 2 Глава: nd/dg/chapters/02.md
+      - Персонажи: 
+        - nd/dg/characters/index.md
+        - Гаэль: nd/dg/characters/gael.md
+        - Даин: nd/dg/characters/dain.md
+        - Гретель: nd/dg/characters/gretel.md
+        - Мария: nd/dg/characters/maria.md
+        - Ганс: nd/dg/characters/hans.md
+        - Кот: nd/dg/characters/cat.md
+        - Зиль: nd/dg/characters/zill.md
+        - Марта: nd/dg/characters/marta.md
+        - Кель: nd/dg/characters/kel.md
+        - Вель: nd/dg/characters/vel.md
+  - ГДД: gdd/index.md
+  - Арт: 2d/index.md
+  - UI: ui/index.md
+
+extra:
+  status:          
+    draft: Черновик
+    wip: В работе
+    review: На проверке
+    current: Актуально
+    deprecated: Устарело
