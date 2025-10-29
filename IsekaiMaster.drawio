@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
+  <diagram name="Страница — 1" id="Wjs8gspWEna-mWV_J2OK">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G4ooS6xf-9lJphzNU7WV-3" target="G4ooS6xf-9lJphzNU7WV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-3" value="&lt;div&gt;Игрок является хранителем фэнтезийного мира и его задача находить героев в других мирах, формировать из них команды и отправлять на задания.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="20" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-4" value="&lt;div&gt;Основной игровой цикл:&lt;/div&gt;&lt;div&gt;- Получаем проблему, которую нужно решить.&lt;/div&gt;&lt;div&gt;- Ищем людей в других мирах подходящих под нужды.&lt;/div&gt;&lt;div&gt;- Собираем из них команду.&lt;/div&gt;&lt;div&gt;- Дарим им дары.&lt;/div&gt;&lt;div&gt;- Отправляем на задание&lt;/div&gt;&lt;div&gt;- Герои проходят или не проходят квест ( зависит от хар-ик)&lt;/div&gt;&lt;div&gt;- Получаем награды за задание если все ок или пробуем еще раз, если все плохо.&lt;/div&gt;&lt;div&gt;- Герои остаются в мире и живут дальше своей жизнью.&lt;/div&gt;&lt;div&gt;- Мы получаем опыт и прокачиваем жилище.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="350" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cKEmu1T9rWRyYFl5wHGd-7" value="" style="swimlane;startSize=0;fillColor=default;fillStyle=solid;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="480" width="930" height="1530" as="geometry">
+            <mxRectangle x="-200" y="480" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKEmu1T9rWRyYFl5wHGd-7" source="G4ooS6xf-9lJphzNU7WV-6" target="G4ooS6xf-9lJphzNU7WV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-6" value="Герои имеют разные показатели характера, которые могут влиять на их взаимоотношения в группе, вероятность совершения плохих поступков, срывов и т.д." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="20" y="10" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-7" value="После выполнения своей задачи герои остаются в мире и могут как сами решать возникающие проблемы, так и становится их причиной." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="20" y="280" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKEmu1T9rWRyYFl5wHGd-7" source="G4ooS6xf-9lJphzNU7WV-9" target="G4ooS6xf-9lJphzNU7WV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-9" value="&lt;div&gt;Мир игры не статичный, в нем должны постоянно воэникать новые события на которые нужно будет реагировать&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="250" y="10" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKEmu1T9rWRyYFl5wHGd-7" source="G4ooS6xf-9lJphzNU7WV-10" target="G4ooS6xf-9lJphzNU7WV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-10" value="&lt;div&gt;Весь мир поделен на участки. Каждый участок, в первую очередь, влияет сам на себя. То есть раз в тик(может быть долгим), игра проверяет каждый участок по харкам и бросает кубик, после чего происходит событие или ничего&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="480" y="10" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-12" value="Также участки могут влиять и на соседние локации, это тоже происходит с опеределенным шансом и происходит по отдельному таймеру" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="720" y="10" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-14" value="Для упрощения можно оставить только героев. То есть мир существует только в виде взаимодействий героев и злодеев. Обычных людей, армий и прочего здесь нет." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="250" y="280" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-15" value="У нас есть соседи, которые также могут вмешиваться в происходящее в нашем мире. По сути, это полноценные персонажи с которыми мы можем договариваться." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="480" y="280" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-16" value="Дары для героев можно будет крафтить, рецепты будут открываться по мере прохождения" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="710" y="280" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKEmu1T9rWRyYFl5wHGd-7" source="G4ooS6xf-9lJphzNU7WV-17" target="G4ooS6xf-9lJphzNU7WV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-17" value="У героев есть также уникальные &quot;причуды&quot;, которые будут заставлять игрока относится к таким героям по особенному. Например, герой может хотеть быть самым опытным в группе и никак иначе." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="710" y="510" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-18" value="Чем выше уровень героя, тем больше у него причуд" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="710" y="780" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKEmu1T9rWRyYFl5wHGd-7" source="G4ooS6xf-9lJphzNU7WV-21" target="G4ooS6xf-9lJphzNU7WV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-21" value="Игрок управляет своим персонажем как в симуляторах, то есть он может свободно ходить и взаимодействовать с объектами." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="480" y="510" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKEmu1T9rWRyYFl5wHGd-7" source="G4ooS6xf-9lJphzNU7WV-22" target="G4ooS6xf-9lJphzNU7WV-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-22" value="Среди объектов точно будет трон. На нем игрок будет встречать новых героев." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="480" y="780" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKEmu1T9rWRyYFl5wHGd-7" source="G4ooS6xf-9lJphzNU7WV-24" target="G4ooS6xf-9lJphzNU7WV-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-24" value="&lt;div&gt;Также будет миниатюра плоского мира. На ней в реальном времени будут отображаться нынешние состояния локаций и потенциальные проблемы, а также герои&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="480" y="1050" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="G4ooS6xf-9lJphzNU7WV-26" value="&lt;div&gt;Со временем игрок сможет посетить миры других смотрителей&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="480" y="1320" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cKEmu1T9rWRyYFl5wHGd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cKEmu1T9rWRyYFl5wHGd-7" source="cKEmu1T9rWRyYFl5wHGd-2" target="cKEmu1T9rWRyYFl5wHGd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cKEmu1T9rWRyYFl5wHGd-2" value="&lt;div&gt;Графику для игры можно сделать в около анимешном стиле с применением сел шейдинга&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="250" y="510" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cKEmu1T9rWRyYFl5wHGd-3" value="Для моделек можно использовать VROID Studio" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="250" y="780" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cKEmu1T9rWRyYFl5wHGd-8" value="Можно обыграть процесс &quot;смерти&quot; героев перед попаданием" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cKEmu1T9rWRyYFl5wHGd-7">
+          <mxGeometry x="50" y="1070" width="190" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
